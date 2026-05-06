@@ -28,10 +28,10 @@ We argue that, given some known generating PDE and the sampling protocol, it wou
 
 Considering the above example, the goal is to build an algorithm that is able to output something like:
 1. Locally identifiable terms
-    * u_x: strongly supported
-    * u u_x: moderately supported
-    * u_{xx}: weakly supported
-    * u_{xxx}: not estimable
+    * $u_x$: strongly supported
+    * $u u_x$: moderately supported
+    * $u_{xx}$: weakly supported
+    * $u_{xxx}$: not estimable
 2. Equivalence classes
     * Model A and Model B are indistinguishable on sampled support.
     * Model C is distinguishable only in high-curvature regions not well sampled.
